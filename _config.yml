@@ -1,0 +1,33 @@
+remote_theme: just-the-docs/just-the-docs
+
+search:
+  # Split pages into sections that can be searched individually
+  heading_level: 2
+  # Maximum amount of previews per search result
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  preview_words_after: 10
+  # Set the search token separator
+  # Example: enable support for hyphenated search words
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  button: false
+
+# Aux links for the upper right navigation
+aux_links:
+  "Contribute":
+    - "//github.com/wilsonehusin/httpstatus-dev"
+aux_links_new_tab: true
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+gh_edit_link: true
+gh_edit_link_text: "Contribute to this site"
+gh_edit_repository: "https://github.com/wilsonehusin/httpstatus-dev"
+gh_edit_branch: "main"
