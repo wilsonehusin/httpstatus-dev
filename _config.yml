@@ -1,4 +1,7 @@
 title: "HTTP Status"
+baseurl: "/"
+url: "https://httpstatus.dev"
+permalink: pretty
 
 remote_theme: just-the-docs/just-the-docs
 
