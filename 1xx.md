@@ -1,6 +1,6 @@
 ---
 title: 1xx Informational
-nav_order: 100
+nav_order: 1
 has_children: true
 
 ---
@@ -13,4 +13,4 @@ A 1xx response is terminated by the end of the header section; it cannot contain
 
 A client MUST be able to parse one or more 1xx responses received prior to a final response, even if the client does not expect one. A user agent MAY ignore unexpected 1xx responses.
 
-A proxy MUST forward 1xx responses unless the proxy itself requested the generation of the 1xx response. For example, if a proxy adds an "Expect: 100-continue" header field when it forwards a request, then it need not forward the corresponding 100 (Continue) response(s).
+A proxy MUST forward 1xx responses unless the proxy itself requested the generation of the 1xx response. For example, if a proxy adds an "Expect: 100-continue" header field when it forwards a request, then it need not forward the corresponding [100 (Continue)](/100) response(s).
