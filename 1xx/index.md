@@ -1,8 +1,10 @@
 ---
 title: 1xx Informational
-nav_order: 1000
+nav_order: 000
 
 ---
+
+# 1xx Informational
 
 The 1xx (Informational) class of status code indicates an interim response for communicating connection status or request progress prior to completing the requested action and sending a final response. Since HTTP/1.0 did not define any 1xx status codes, a server MUST NOT send a 1xx response to an HTTP/1.0 client.
 
