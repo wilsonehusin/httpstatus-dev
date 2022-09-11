@@ -9,7 +9,7 @@ nav_order: 0
 A summary on HTTP statuses.
 
 {: .notice }
-> 🚧 Under construction
+> 🚧 **Under construction**
 >
 > Currently, the content is being categorized over based on [a section on HTTP statuses in RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html#section-15). Eventually, we aim to put the important summary on top of every section which are practical for most developers.
 >
