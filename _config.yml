@@ -8,7 +8,16 @@ permalink: pretty
 
 remote_theme: just-the-docs/just-the-docs
 
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "vendor"]
 
+color_scheme: nil # or "darK"
+callouts_level: quiet # or "loud" if color_scheme is dark
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
 
 search:
   # Split pages into sections that can be searched individually
