@@ -19,11 +19,12 @@ The status code of a response is a three-digit integer code that describes the r
 
 The first digit of the status code defines the class of response. The last two digits do not have any categorization role. There are five values for the first digit:
 
-[1xx (Informational)](/1xx): The request was received, continuing process
-[2xx (Successful)](/2xx): The request was successfully received, understood, and accepted
-[3xx (Redirection)](/3xx): Further action needs to be taken in order to complete the request
-[4xx (Client Error)](/4xx): The request contains bad syntax or cannot be fulfilled
-[5xx (Server Error)](/5xx): The server failed to fulfill an apparently valid request
+- [1xx (Informational)](/1xx): The request was received, continuing process
+- [2xx (Successful)](/2xx): The request was successfully received, understood, and accepted
+- [3xx (Redirection)](/3xx): Further action needs to be taken in order to complete the request
+- [4xx (Client Error)](/4xx): The request contains bad syntax or cannot be fulfilled
+- [5xx (Server Error)](/5xx): The server failed to fulfill an apparently valid request
+
 HTTP status codes are extensible. A client is not required to understand the meaning of all registered status codes, though such understanding is obviously desirable. However, a client MUST understand the class of any status code, as indicated by the first digit, and treat an unrecognized status code as being equivalent to the x00 status code of that class.
 
 For example, if a client receives an unrecognized status code of 471, it can see from the first digit that there was something wrong with its request and treat the response as if it had received a [400 (Bad Request)](/400) status code. The response message will usually contain a representation that explains the status.

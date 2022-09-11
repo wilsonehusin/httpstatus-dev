@@ -1,8 +1,6 @@
-title: "HTTP Status"
+title: "httpstatus.dev"
 baseurl: "/"
-# GitHub Flavored Markdown
-# https://github.github.com/gfm/
-markdown: "GFM"
+markdown: "kramdown"
 url: "https://httpstatus.dev"
 permalink: pretty
 
